@@ -21,6 +21,7 @@ include $(BUILD_PREBUILT)
 
 # Calendar Provider
 include $(CLEAR_VARS)
+LOCAL_PACKAGE_OVERRIDES := CalendarProvider
 LOCAL_MODULE := CalendarProvider
 LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
 LOCAL_MODULE_CLASS := APPS
@@ -201,6 +202,7 @@ include $(BUILD_PREBUILT)
 
 # Visualization Wallpapers
 include $(CLEAR_VARS)
+LOCAL_PACKAGE_OVERRIDES := VisualizationWallpapers
 LOCAL_MODULE := VisualizationWallpapers
 LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
 LOCAL_MODULE_CLASS := APPS
